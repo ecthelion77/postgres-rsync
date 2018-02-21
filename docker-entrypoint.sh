@@ -141,4 +141,6 @@ if [ "$1" = 'postgres' ]; then
 	fi
 fi
 
+/etc/init.d/ssh start
+
 exec "$@"
